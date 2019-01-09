@@ -35,11 +35,11 @@ A guide to [using nec2++ from python](http://astroelec.blogspot.co.nz/2015/05/mo
 
 Quick Compile:
 
-  git clone https://github.com/hvegh/necpp.git
-  cd necpp
-  ./autogen.sh 
-  ./configure --without-lapack
-  make
+git clone https://github.com/hvegh/necpp.git  
+cd necpp  
+./autogen.sh   
+./configure --without-lapack  
+make  
 
 ## Links
 
