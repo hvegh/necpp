@@ -31,7 +31,15 @@ A guide to [using nec2++ from python](http://astroelec.blogspot.co.nz/2015/05/mo
 
 ## Installation
 
-Instructions are in the file INSTALL.md.
+  Instructions are in the file INSTALL.md.
+
+Quick Compile:
+
+  git clone https://github.com/hvegh/necpp.git
+  cd necpp
+  ./autogen.sh 
+  ./configure --without-lapack
+  make
 
 ## Links
 
