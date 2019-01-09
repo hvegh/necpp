@@ -45,7 +45,7 @@ libnecpp_la_CXXFLAGS = -O2 -g0 -Wall -Wextra -Wshadow -Wconversion
 
 
 libnecpp_la_LDFLAGS = @LIBLAPACK@ -lm -lstdc++
-nec2___LDFLAGS = -all-static
+nec2___LDFLAGS = # -all-static
 
 # Unit tests
 noinst_PROGRAMS = test_manager
